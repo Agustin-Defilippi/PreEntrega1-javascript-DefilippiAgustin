@@ -23,7 +23,7 @@ const while1 = () =>{
 
     let producto= "";
     while((producto.trim() === "") || (!isNaN(producto))){
-        producto= prompt("ingrese que desea hacer"+"\n\n"+"Inserte"+" "+"(" +"(CALCULAR)"+ "),"+" "+"Para calcular metros cuadrados que necesites de ceramica y o porcelanato,"+" "+"Si así lo desea."+"\n"+"Inserte"+" "+"(" +"PEGAMENTO"+ "),"+" "+"Si así lo desea."+"\n"+"Inserte"+" "+"(" +"TIENDA"+ "),"+" "+"Si así lo desea.").toUpperCase();
+        producto= prompt("ingrese que desea hacer"+"\n\n"+"1"+")"+" "+"Inserte"+" " +"(CALCULAR)"+" "+"Para calcular metros cuadrados que necesites de ceramica y o porcelanato,"+" "+"Si así lo desea."+"\n\n"+"1"+")"+" "+"Inserte"+" "+"(" +"PEGAMENTO"+ "),"+" "+"para calcular pegamento"+" "+"Si así lo desea."+"\n\n"+"2"+")"+" "+"Inserte"+" "+"(" +"TIENDA"+ "),"+" "+"Si así lo desea.").toUpperCase();
     }
     return producto;
 }

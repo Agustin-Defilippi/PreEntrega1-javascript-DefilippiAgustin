@@ -46,7 +46,7 @@ if((producto === "CALCULAR")){
 }else if((producto === "PEGAMENTO")){
     
     while((!isNaN(calculadorPegamento)) || ((calculadorPegamento.trim() ===""))){
-        calculadorPegamento = prompt("Cacule el pegamento de acorde a sus metros cuadrados finales."+"\n"+"(INSERTE CALCULAR);"+"\n\n").toLocaleUpperCase();
+        calculadorPegamento = prompt("Cacule el pegamento de acorde a sus metros cuadrados finales."+"\n\n"+"(INSERTE CALCULAR);"+"\n\n").toLocaleUpperCase();
     }
     
     let cantidadMetros = parseFloat(prompt("Ingrese los metros cuadrados finales para efectuar el calculo acorde")).toFixed(2);
