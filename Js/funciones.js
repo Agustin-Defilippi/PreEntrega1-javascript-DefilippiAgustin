@@ -1,4 +1,5 @@
 //mis funciones utilizadas
+
 const operacionMetros2 = (valor1,valor2) =>{
     return(valor1 * valor2);
 }
@@ -8,8 +9,11 @@ const operacionSuperficie = (valor1,valor2,valor3) =>{
 const operacionAgregadoCeramica = (valor1) =>{
     return(valor1 * 1.10);
 }
-const operacionAgregadoPorcelanto = (valor1) =>{
-    return(valor1 * 1.15.toFixed(2));
+const operacionSeisPagos = (valor1) =>{
+    return(valor1 * 1.20);
+}
+const operacionDocePagos = (valor1) =>{
+    return(valor1 * 1.25);
 }
 const operacionSumaCantidades = (valor1,valor2,valor3) =>{
     return((valor1 * valor2)+((valor1 * valor3)*2) + ((valor2 * valor3)*2));
@@ -33,7 +37,3 @@ const tiendaPegamento = () =>{
 
    return parseInt(prompt("ingrese la cantidad de metros cuadrados que desea"+"\n"+"ingrese solo valores enteros."));
 }
-
-
-
-
